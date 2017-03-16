@@ -1,0 +1,12 @@
+{
+  "name": "wangEditor-demo",
+  "title": "demo for wangEditor",
+  "author": {
+    "name": "lily",
+    "url": "https://github.com/aline2013"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "jquery": "^2.2.3"
+  }
+}
