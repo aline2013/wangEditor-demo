@@ -28,9 +28,18 @@
             <p>请输入内容...</p>
         </textarea> -->
     </div>
-
-    <script type="text/javascript" src="libs/js/lib/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="libs/js/wangEditor.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="libs/js/sea.js"></script>
+    <script type="text/javascript">
+        seajs.config({
+            base:'/',
+            alias: {
+            // 相对于 main.js 的路径
+            'jquery': '/libs/js/lib/jquery-2.2.1',
+            'wangEditor': '/libs/js/wangEditor'
+           }
+        });
+        // 加载入口模块，即刚刚创建的 main.js
+        seajs.use('index');
+    </script>
 </body>
 </html>

@@ -1,4 +1,6 @@
-$(function(){
+define(function(require){
+  var $ = require('jquery');
+  var wangEditor = require('wangEditor')($);
 
   // id名
   var editor = new wangEditor('editor-trigger');
