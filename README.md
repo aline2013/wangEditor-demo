@@ -1,5 +1,6 @@
 # wangEditor-demo
 wangEditor-demo,seajs,formidable
+123
 
 ### 步骤
 1. 下载项目
